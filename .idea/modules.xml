@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" filepath="$PROJECT_DIR$/ClasseObjeto/ClasseObjeto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exe1/Exe1.iml" filepath="$PROJECT_DIR$/Exe1/Exe1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exe2s/Exe2s.iml" filepath="$PROJECT_DIR$/Exe2s/Exe2s.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exe3/Exe3.iml" filepath="$PROJECT_DIR$/Exe3/Exe3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Paradigmas de Programação I.iml" filepath="$PROJECT_DIR$/.idea/Paradigmas de Programação I.iml" />
+    </modules>
+  </component>
+</project>
