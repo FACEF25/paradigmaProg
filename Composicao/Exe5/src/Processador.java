@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class Processador {
+    private String marca, modelo;
+    private int frequencia;
+
 }

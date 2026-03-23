@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public class Apartamento {
+    private int numero, andar;
 }
