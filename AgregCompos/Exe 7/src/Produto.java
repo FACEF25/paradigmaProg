@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
 public class Produto {
+    private int id;
+    private String nome;
+    private float preco;
+
 }

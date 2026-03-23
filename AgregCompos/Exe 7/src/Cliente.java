@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public class Cliente {
+    private int id;
+    private String nome;
 }
