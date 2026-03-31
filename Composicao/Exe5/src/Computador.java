@@ -1,10 +1,12 @@
 public class Computador {
     private int id;
     private String marca;
-
-    public Computador(int id, String marca) {
+    private Processador processador;
+//  UM PROCESSADOR PRA UM COMPUTADOR
+    public Computador(int id, String marca,String procMarca, String procModelo,int procFrequencia) {
         this.id = id;
         this.marca = marca;
+        this.processador = new Processador(procMarca, procModelo , procFrequencia);
     }
 
     public Computador() {
@@ -30,7 +32,7 @@ public class Computador {
     public String toString() {
         return "Computador{" +
                 "id=" + id +
-                ", marca='" + marca + '\'' +
+                ", marca='" + marca + '\'' + processador +
                 '}';
     }
 }
