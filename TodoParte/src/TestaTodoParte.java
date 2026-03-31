@@ -7,5 +7,10 @@ public class TestaTodoParte {
 
         Pedido ped1 = new Pedido(1, new Date() ,cli1);
         System.out.println(ped1.toString());
+        Produto prod1 = new Produto(10, "Mouse", "Mouse óptico", 200);
+        Produto prod2 = new Produto(20, "Monitor", "Widescreen", 900);
+        ped1.adicionaItemPedido(11, 3, prod1);
+        ped1.adicionaItemPedido(12, 2, prod2);
+        System.out.println(ped1.toString());
     }
 }
